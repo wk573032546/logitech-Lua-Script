@@ -200,7 +200,7 @@ userInfo = {
 
 
 
-
+---------------------Internal Configuration---------------------
 pubg = {
     gun = {
         [".45"] = {},
