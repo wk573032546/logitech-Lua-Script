@@ -39,7 +39,7 @@ userInfo = {
     autoPressAimKey = "",
 
     -- 启动控制 (capslock - 使用大写锁定键控制 | numlock - 小键盘锁定键控制 | G_bind - 使用指令控制) | Start up control
-    startControl = "G_bind",
+    startControl = "capslock",
 
     -- 瞄准设置 (default - 使用游戏默认设置 | recommend - 使用脚本推荐设置 | custom - 自定义设置 | ctrlmode - 下蹲模式) | Aiming setting
     aimingSettings = "recommend",
@@ -1080,7 +1080,7 @@ function pubg.OnEvent_NoRecoil (event, arg, family)
             pubg.startTime = GetRunningTime()
             pubg.G1 = true
             repeat
-		  OutputLogMessage("Start Shooting....\n")
+		    OutputLogMessage("Start Shooting....\n")
                 pubg.auto(pubg.gunOptions[pubg.bulletType][pubg.gunIndex])
             until not IsMouseButtonPressed(1)
             OutputLogMessage("Stop Shooting....\n")
