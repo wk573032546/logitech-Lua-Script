@@ -63,7 +63,7 @@ userInfo = {
 	canUse = {
 		[".45"] = {
 			-- 枪械             模式         系数        下蹲系数
-			{ "UMP45",          1,          1,          0.8 }, -- 基础镜 + 扩容，Bizon (基础镜即可)，Vector (补偿 + 基础镜 + 扩容) | Reddot + Mag，Bizon (Reddot)，Vector (Komp + Reddot + Mag)
+			{ "UMP45",          2,          1,          0.8 }, -- 基础镜 + 扩容，Bizon (基础镜即可)，Vector (补偿 + 基础镜 + 扩容) | Reddot + Mag，Bizon (Reddot)，Vector (Komp + Reddot + Mag)
 			{ "Tommy Gun",      1,          1,          0.8 }, -- 扩容 | Mag
 		},
 			-- 枪械             模式         系数        下蹲系数
@@ -82,7 +82,7 @@ userInfo = {
 		["7.62"] = {
 			-- 枪械             模式         系数        下蹲系数
 			{ "AKM",            2,          1,          0.8 }, -- 补偿 + 基础镜 + 扩容 | Komp + Reddot + Mag
-			{ "Beryl M762",     1,          1.1,          0.8 }, -- 补偿 + 基础镜 + 直角 + 扩容 | Komp + Reddot + Triangular grip + Mag
+			{ "Beryl M762",     2,          1.05,          0.8 }, -- 补偿 + 基础镜 + 直角 + 扩容 | Komp + Reddot + Triangular grip + Mag
 			{ "DP-28",          0,          1,          0.8 }, -- 基础镜 | Reddot
 		},
 	},
